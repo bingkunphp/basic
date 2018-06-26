@@ -14,9 +14,8 @@ class UserController extends Controller
 {
     function actionLogin()
     {
-        echo '这是一个油瓶';
+        echo 'say hello';
         exit;
-
         $this->layout = false;
         return $this->render('index');
     }
